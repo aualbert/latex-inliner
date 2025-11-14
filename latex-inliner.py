@@ -400,8 +400,8 @@ def main():
         print("Usage: python latex_inliner.py <main.tex> [output.tex]")
         print("")
         print("Examples:")
-        print("  python latex_inliner.py main.tex")
-        print("  python latex_inliner.py main.tex single_file.tex")
+        print("  python latex-inliner.py main.tex")
+        print("  python latex-inliner.py main.tex single_file.tex")
         sys.exit(1)
     
     main_file = sys.argv[1]
